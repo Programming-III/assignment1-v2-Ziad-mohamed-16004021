@@ -14,6 +14,8 @@ void addStudent(const Student& s);
 void displayCourseInfo();
 void setname();
 void getname();
+void getid();
+void setid();
 Person(string name,int id);
 Person();
 };
