@@ -30,6 +30,12 @@ person :: person(){
 delete();
 }
 
+void person :: setname(){
+}
+
+void person :: setid(){
+}
+
 
 
 
@@ -49,9 +55,14 @@ return major;
 student :: person(int yearLevel, string major){
 this->yearLevel = yearLevel;
 this->major = major;
-}\
+}
 student :: student(){
 delete();
+}
+void student:: setyearLevel(){
+}
+
+void student:: setmajor(){
 }
 
 
@@ -80,6 +91,13 @@ this->experienceYears = experienceYears;
 Instructor:: Instrutor(){
 delete()
         }
+void Instructor:: setdepartment(){
+
+}
+
+void Instructor:: setexperienceYears(){
+
+}
 
 
 
