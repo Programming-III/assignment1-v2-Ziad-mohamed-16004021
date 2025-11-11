@@ -1,19 +1,24 @@
 #ifndef INSTRUCTOR_H
 #define INSTRUCTOR_H
+
+#include <string>
+#include "Instructor.h"
+using namespace std;
 class instructor{
 private:
 string department;
-int experienceYears
+int experienceYears;
 
 public:
+void addStudent(const Student& s);
 void display();
-
-
-#include "Person.h"
-using namespace std;
-void instructor :: display(){
-  cout<<department<<experienceYears;
-}
+void setdepartment();
+void getdepartment();
+void getexperienceYears();
+void setexperienceYears();
+Student(string name,int id);
+Student();
+};
 
 
 
