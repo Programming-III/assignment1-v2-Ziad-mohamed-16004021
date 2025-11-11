@@ -21,11 +21,14 @@ void person :: getid(){
 return id;
 }
 
-person :: person(){
+person :: person(string name,int id){
 this->name=name;
 this->id=id;
 }
 
+person :: person(){
+delete();
+}
 
 
 
@@ -43,9 +46,12 @@ void student :: getmajor{
 return major;
 }
 
-student :: person(){
+student :: person(int yearLevel, string major){
 this->yearLevel = yearLevel;
 this->major = major;
+}\
+student :: student(){
+delete();
 }
 
 
@@ -54,7 +60,26 @@ this->major = major;
 
 // ==================== Instructor Class Implementation ====================
 
+void Instrucotr:: display(){
+cout<<department<<experienceYears;
+}
 
+void Instructor:: getdepartment(){
+return department;
+}
+
+void Instructor:: getexperienceYears(){
+return experienceYears;
+}
+
+Instructor::Instructor(string department, int experienceYears){
+this->department = department;
+this->experienceYears = experienceYears;
+}
+
+Instructor:: Instrutor(){
+delete()
+        }
 
 
 
@@ -77,11 +102,15 @@ void course:: getmaxstudents(){
 return maxstudents;
 }
 
-course : course(){
+course : course(string coursename, int currentstudents){
 this->coursename=coursename;
 this->currentstudents=currentstudents;
 
 }
+
+course:course(){
+delete()
+        }
 
 
 
