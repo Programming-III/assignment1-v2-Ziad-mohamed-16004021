@@ -8,6 +8,8 @@ private:
     
 public:
    void display();
+void getname();
+voitsetname();
 #endif
     
     
