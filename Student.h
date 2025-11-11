@@ -11,9 +11,12 @@ string major;
 
 public:
 void display();
-void getname();
-void setname();
+void yearLevel();
+void setyearLevel();
+void getmajor();
+void setmajor();
 student();
+student(int yearLevel, string major);
 };
 
 
