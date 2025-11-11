@@ -15,7 +15,7 @@ public:
 #include <string>
 using namespace std;
 
-void display(){
+void student :: display(){
         cout<<name<<cout<<id;
     }
 
