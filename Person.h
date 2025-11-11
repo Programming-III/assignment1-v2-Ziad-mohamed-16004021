@@ -1,8 +1,8 @@
-#ifndef COURSE_H
-#define COURSE_H
+#ifndef PERSON_H
+#define PERSON_H
 
 #include <string>
-#include "Student.h"
+#include "Person.h"
 using namespace std;
 class person{
 private:
@@ -10,8 +10,7 @@ string name;
 int id;
 
 public:
-void addStudent(const Student& s);
-void displayCourseInfo();
+void display();
 void setname();
 void getname();
 void getid();
