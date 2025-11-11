@@ -1,27 +1,20 @@
-#ifndef PERSON_H
-#define PERSON_H
-
-class person{
-private:
-    string name;
-    int id;
-    
-public:
-   void display();
-void getname();
-voitsetname();
-#endif
-    
-    
+#ifndef COURSE_H
+#define COURSE_H
 
 #include <string>
+#include "Student.h"
 using namespace std;
+class person{
+private:
 
-
-
+public:
+void addStudent(const Student& s);
+void displayCourseInfo();
+void setname();
+void getname();
+Person();
+Person();
 };
-//#write Person class here
-
 
 
 
