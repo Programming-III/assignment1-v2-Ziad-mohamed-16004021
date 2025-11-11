@@ -14,9 +14,7 @@ void display();
 #include <string>
 #using namespace std;
 
-void student :: display(){
-  cout<<yearLevel<<major;
-}
+
 };
 
 
