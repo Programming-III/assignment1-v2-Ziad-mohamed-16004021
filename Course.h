@@ -6,23 +6,23 @@
 using namespace std;
 class{
 private:
-string coursecode;
-string coursename;
-int maxstudents;
+string courseCode;
+string courseName;
+int maxStudents;
 Student* students;
-int currentstudents;
+int currentStudents;
 
 public:
 void addStudent(const Student& s);
 void displayCourseInfo();
-void getcoursecode();
-void setcoursecode();
-void getmaxstudents();
-void setmaxstudents();
-void getcurrentstudents();
-void setcurrentstudents();
-void getcoursename();
-void setcoursename();
+void getcourseCode();
+void setcourseCode();
+void getmaxStudents();
+void setmaxStudents();
+void getcurrentStudents();
+void setcurrentStudents();
+void getcourseName();
+void setcoursname();
 };
 
 
