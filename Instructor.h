@@ -10,7 +10,6 @@ string department;
 int experienceYears;
 
 public:
-void addStudent(const Student& s);
 void display();
 void setdepartment();
 void getdepartment();
