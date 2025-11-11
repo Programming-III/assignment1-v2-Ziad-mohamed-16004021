@@ -20,7 +20,9 @@ void student :: display(){
 
 
 // ==================== Student Class Implementation ====================
-
+void student :: display(){
+  cout<<yearLevel<<major;
+}
 
 
 
